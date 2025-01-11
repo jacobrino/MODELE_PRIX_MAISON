@@ -21,7 +21,6 @@ class HouseData(BaseModel):
 # Endpoint pour la prédiction
 @app.post("/predict")
 async def predict_price(data: HouseData):
-    print('ici request')
     try:
         input_data = pd.DataFrame({
             'Surface': [data.surface],
