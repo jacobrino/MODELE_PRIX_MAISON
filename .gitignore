@@ -1,0 +1,9 @@
+# Ignorer tous les fichiers compilés Python
+__pycache__/
+*.py[cod]
+
+# Ignorer l'environnement virtuel Python
+venv/
+ENV/
+.env/
+.venv/
