@@ -13,6 +13,7 @@ Ce projet implémente un modèle de Machine Learning basé sur une régression l
 
 Le modèle est exposé via une API REST FastAPI afin d’effectuer des prédictions en envoyant des données au format JSON.
 
+![Image_Model](https://github.com/jacobrino/ML-MODEL-PRIX-MAISON/blob/main/docs/images/image_model.png)
 
 HISTORIQUE DU DEPOT
 ----------------------------------------------------
@@ -60,6 +61,7 @@ curl -X POST http://localhost:8000/predict -H "Content-Type: application/json" -
 Réponse attendue :
 Une réponse JSON contenant le prix prédit selon le modèle entraîné.
 
+![prediction](https://github.com/jacobrino/ML-MODEL-PRIX-MAISON/blob/main/docs/images/test_prediction%20valeur%20via%20api%20host%20local.png)
 
 DOCKER (OPTIONNEL)
 ----------------------------------------------------
